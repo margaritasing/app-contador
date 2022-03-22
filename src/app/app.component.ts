@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-contador';
+  nombre:string = "Libia";
+  contador:number = 0
+  
+  add(){
+    this.contador++
+  }
+
+  remove(){
+    this.contador--
+  }
 }
